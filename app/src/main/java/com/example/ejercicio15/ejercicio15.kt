@@ -8,7 +8,7 @@ fun main(){
     for(numeros in numero){
        suma+=numeros
     }
-    numero.reduce(){acc,numero->acc*numero  }
+
     val promedio:Double = suma.toDouble()/numero.size
     println("La suma de los numeros es: $suma")
     println("El promedio de los numeros es: $promedio")
